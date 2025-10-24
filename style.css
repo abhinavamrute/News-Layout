@@ -1,0 +1,57 @@
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.site-header {
+  background-color: black;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  border-color: black;
+}
+
+.searchr {
+  order: 2;
+}
+
+#search {
+  width: 400px;
+  height: 30px;
+  background-color: #02594e;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-radius: 0px;
+  padding-left: 40px;
+}
+
+#search::placeholder {
+  color: #558d84;
+  opacity: 1;
+  font-size: 15px;
+  padding-left: 0px;
+}
+
+#logo {
+  color: white;
+  font-size: 50px;
+  order: 1;
+}
+
+#submit-btn{
+  background-color: #8d4042;
+  color: white;
+  border: none;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#submit-btn:hover {
+  background-color: #6a3334;
+}
