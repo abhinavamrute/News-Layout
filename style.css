@@ -17,7 +17,7 @@ body{
 }
 
 #search {
-  width: 400px;
+  width: 600px;
   height: 30px;
   background-color: #02594e;
   border: none;
@@ -54,4 +54,36 @@ body{
 }
 #submit-btn:hover {
   background-color: #6a3334;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  padding: 20px 0;
+  margin: 0;
+  color: white;
+}
+.nav-bar {
+  background-color: #1a1a1a;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.cg {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cg:hover {
+  background-color: #02594e;
 }
