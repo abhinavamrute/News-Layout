@@ -1,5 +1,6 @@
 body{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #f3f2ea;
 }
 
 .site-header {
@@ -86,4 +87,10 @@ body{
 
 .cg:hover {
   background-color: #02594e;
+}
+
+.news-container {
+  height: 600px;
+  background-color: #fdfdfd;
+  display: flex;
 }
