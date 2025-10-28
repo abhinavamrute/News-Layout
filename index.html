@@ -9,19 +9,18 @@
   </head>
 
   <body>
-    <header>
+    <header class="heading">
       <div class="site-header">
         <h1 id="logo">NEWSLETTER</h1>
         <div class="searchr">
-          <div style="display:flex">
-            <div><input type="text" placeholder="Search for the Headlines" id="search"></div>
-            <div><input type="submit" value="SEARCH" id="submit-btn"></div>
-          </div>
+          <input type="text" placeholder="Search for the Headlines" id="search">
+          <input type="submit" value="SEARCH" id="submit-btn">
         </div>
       </div>
     </header>
-    <header class="nav-bar">
-      <nav class="nav-list">
+
+    <nav class="nav-bar">
+      <div class="nav-list">
         <div class="cg">HOME</div>
         <div class="cg">WORLD</div>
         <div class="cg">ECONOMY</div>
@@ -32,11 +31,18 @@
         <div class="cg">Lifestyle</div>
         <div class="cg">Food</div>
         <div class="cg">Sports</div>
-      </nav>
-    </header>
-    <div class="news-container">
+      </div>
+    </nav>
+    <div class="main-container">
       <div class="coln1">
-        <div id="inblock"></div>
+        <div class="top-stories">
+          <h1>Top Stories</h1>
+        </div>
+      </div>
+      <div class="coln2">
+        <div class="local-news">
+          <h1>Local News</h1>
+        </div>
       </div>
     </div>
   </body>

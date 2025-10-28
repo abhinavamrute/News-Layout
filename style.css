@@ -11,13 +11,23 @@ body{
   justify-content: space-between;
   padding: 0 50px;
   border-color: black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.heading{
+  top: 5px;
+  position: sticky;
+  z-index: 100;
 }
 
 .searchr {
   order: 2;
-}
+  display: flex;
+} 
 
 #search {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
   width: 600px;
   height: 30px;
   background-color: #02594e;
@@ -25,7 +35,6 @@ body{
   padding: 10px;
   color: white;
   font-size: 16px;
-  border-radius: 0px;
   padding-left: 40px;
 }
 
@@ -43,6 +52,8 @@ body{
 }
 
 #submit-btn{
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
   background-color: #8d4042;
   color: white;
   border: none;
@@ -73,6 +84,11 @@ body{
   text-align: center;
   align-items: center;
   justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  top: 150px;
+  position: sticky;
+  z-index: 99;
 }
 
 .cg {
@@ -89,25 +105,74 @@ body{
   background-color: #02594e;
 }
 
-.news-container {
-  height: 600px;
-  background-color: #fdfdfd;
+.main-container {
+  width: 90%;
+  height: 700px;
   display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px ;
+  position: relative;
 }
 
 .coln1 {
-  background-color: black;
-  width: 50%;
-  height: 600px;
-  display: grid;
-  align-items: center;
-  justify-items: center;
+  padding-top: 90px;
+  background-color: #1a1a1a;
+  height: 700px;
+  width: 70%;
+  border-radius: 20px;
 }
 
-#inblock {
-  background-image: url("assets/Jong_2.png");
-  background-size: cover;
-  background-position: center;
-  width: 90%;
-  height: 90%;
+.coln2 {
+  padding-top: 90px;
+  background-color: #1a1a1a;
+  height: 40%;
+  width: 29%;
+  border-radius: 20px;
 }
+
+
+.top-stories h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0bac97;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.coln1 .top-stories {
+  margin-top: auto;
+  padding-left: 30px;
+  display: flex;
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position:absolute;
+  top: 0;
+  display: block
+}
+
+#line {
+  color: black;
+  height: 10px;
+  width: 100px;
+}
+
+.coln2 .local-news {
+  margin-top: auto;
+  padding-left: 30px;
+  display: flex;
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position:absolute;
+  top: 0;
+  display: block
+}
+
+.local-news h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0bac97;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
