@@ -68,7 +68,7 @@ body{
 }
 .nav-bar {
   background-color: #1a1a1a;
-  height: 70px;
+  height: 50px;
   display: flex;
   text-align: center;
   align-items: center;
@@ -76,8 +76,8 @@ body{
 }
 
 .cg {
-  width: 150px;
-  height: 70px;
+  width: 130px;
+  height: 50px;
   display: flex;
   text-align: center;
   align-items: center;
@@ -93,4 +93,21 @@ body{
   height: 600px;
   background-color: #fdfdfd;
   display: flex;
+}
+
+.coln1 {
+  background-color: black;
+  width: 50%;
+  height: 600px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+#inblock {
+  background-image: url("assets/Jong_2.png");
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 90%;
 }
