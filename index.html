@@ -1,49 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Layout</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <header class="heading">
-      <div class="site-header">
-        <h1 id="logo">NEWSLETTER</h1>
-        <div class="searchr">
-          <input type="text" placeholder="Search for the Headlines" id="search">
-          <input type="submit" value="SEARCH" id="submit-btn">
-        </div>
-      </div>
-    </header>
-
-    <nav class="nav-bar">
-      <div class="nav-list">
-        <div class="cg">HOME</div>
-        <div class="cg">WORLD</div>
-        <div class="cg">ECONOMY</div>
-        <div class="cg">Science & Tech</div>
-        <div class="cg">Business</div>
-        <div class="cg">Travel</div>
-        <div class="cg">Climate</div>
-        <div class="cg">Lifestyle</div>
-        <div class="cg">Food</div>
-        <div class="cg">Sports</div>
-      </div>
-    </nav>
-    <div class="main-container">
-      <div class="coln1">
-        <div class="top-stories">
-          <h1>Top Stories</h1>
-        </div>
-      </div>
-      <div class="coln2">
-        <div class="local-news">
-          <h1>Local News</h1>
-        </div>
+<body>
+  <header class="heading">
+    <div class="site-header">
+      <h1 id="logo">NEWSLETTER</h1>
+      <div class="searchr">
+        <input type="text" placeholder="Search for the Headlines" id="search">
+        <input type="submit" value="SEARCH" id="submit-btn">
       </div>
     </div>
-  </body>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li class="cg">HOME</li>
+        <li class="cg">WORLD</li>
+        <li class="cg">ECONOMY</li>
+        <li class="cg">Science & Tech</li>
+        <li class="cg">Business</li>
+        <li class="cg">Travel</li>
+        <li class="cg">Climate</li>
+        <li class="cg">Lifestyle</li>
+        <li class="cg">Food</li>
+        <li class="cg">Sports</li>
+      </ul>
+    </nav>  
+  </header>
+
+  <div class="main-container">
+    
+    <div class="coln1">
+      <div class="top-stories">
+        <h1>Top Stories</h1>
+      </div>
+      <div class="card-coln1" id="card-1">
+        <h1>Global Summit Addresses Political Tensions</h1>
+        <div class="card-content-flex">
+          <div>
+            <p>World leaders gathered today for an emergency summit, aiming to de-escalate recent global political tensions. Analysts remain cautiously optimistic, waiting for concrete resolutions from the closed-door meetings.</p>
+            <div class="meta-data">
+              <p>Date: 12 Aug 20XX</p>
+              <p>Time: 14:02 IST</p>
+            </div>
+          </div>
+          <img src="https://i.abcnewsfe.com/a/51e1d8b1-f2d6-49f2-a7db-fb011913efee/donald-trump-15-gty-gmh-251028_1761662331594_hpMain.jpg" alt="Image for story 1">
+        </div>
+      </div>
+      
+      <div class="card-coln1" id="card-2">
+        <h1>New Economic Policy Announced by Government</h1>
+        <div class="card-content-flex">
+          <img src="https://media.assettype.com/thenewsminute%2F2025-05-24%2Fm5umhef7%2Fpm.jpg?w=480&auto=format%2Ccompress&fit=max" alt="Image for story 2">
+          <div>
+            <p>The administration has unveiled a comprehensive new economic policy aimed at boosting domestic manufacturing and investing in infrastructure development. Details will be presented next week.</p>
+            <div class="meta-data">
+              <p>Date: 19 Sept 20XX</p>
+              <p>Time: 08:02 IST</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-coln1" id="card-3">
+        <h1>Space Agency Reports Anomaly on Mars Mission</h1>
+        <div class="card-content-flex">
+          <div>
+            <p>Mission control is currently analyzing unexpected data from the Mars rover, which has reported a communications anomaly. Engineers are working to diagnose the issue and re-establish a stable link.</p>
+            <div class="meta-data">
+              <p>Date: 28 Dec 20XX</p>
+              <p>Time: 06:02 IST</p>
+            </div>
+          </div>
+          <img src="https://i.guim.co.uk/img/media/f62bdb97383a153229b882c2e9f69c1b8ae1ce1c/12_0_3252_2601/master/3252.jpg?width=465&dpr=1&s=none&crop=none" alt="Image of a satellite">
+        </div>
+      </div>
+
+      <div class="card-coln1" id="card-4">
+        <h1>Advancements in AI Transform Healthcare</h1>
+        <div class="card-content-flex">
+          <img src="https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=600" alt="AI in healthcare">
+          <div>
+            <p>New AI-powered diagnostic tools are helping doctors detect diseases earlier and more accurately than ever before, promising a revolution in patient care and medical outcomes.</p>
+            <div class="meta-data">
+              <p>Date: 05 Jan 20XX</p>
+              <p>Time: 10:30 IST</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-coln1" id="card-5">
+        <h1>New Eco-Friendly Travel Trends Emerge</h1>
+        <div class="card-content-flex">
+          <div>
+            <p>The travel industry is seeing a significant shift towards sustainability. 'Slow travel' and eco-lodges are becoming increasingly popular as tourists seek to minimize their environmental footprint.</p>
+            <div class="meta-data">
+              <p>Date: 15 Feb 20XX</p>
+              <p>Time: 16:45 IST</p>
+            </div>
+          </div>
+          <img src="https://images.pexels.com/photos/2406395/pexels-photo-2406395.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Eco-friendly travel">
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="coln2">
+      <div class="local-news">
+        <h1>Local News</h1>
+      </div>
+
+      <div class="card-coln2" id="card_2-1">
+        <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg" alt="Local food festival" class="card-image">
+        <div class="card-content">
+          <h3 class="news-title">Annual Food Street Festival Begins Downtown</h3>
+        </div>
+      </div>
+
+      <div class="card-coln2" id="card_2-2">
+        <img src="https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Community library" class="card-image">
+        <div class="card-content">
+          <h3 class="news-title">New Community Library Opens on Main St.</h3>
+        </div>
+      </div>
+
+      <div class="card-coln2" id="card_2-3">
+        <img src="https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Local news image 3" class="card-image">
+        <div class="card-content">
+          <h3 class="news-title">City Announces New Public Park Project</h3>
+        </div>
+      </div>
+
+      <div class="card-coln2" id="card_2-4">
+        <img src="https://images.pexels.com/photos/1261164/pexels-photo-1261164.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="card-image">
+        <div class="card-content">
+          <h3 class="news-title">Local Football Team Wins Championship</h3>
+        </div>
+      </div>
+
+    </div>
+  </div> 
+  
+  <div class="trending-wrapper">
+    <div class="trending-title">
+      <h1>Trending Now</h1>
+    </div>
+    <div class="trending-grid">
+      <div class="trending-card">
+        <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Trending story 1">
+        <h3 class="news-title">The Future of Quantum Computing Explained</h3>
+      </div>
+      <div class="trending-card">
+        <img src="https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Trending story 2">
+        <h3 class="news-title">Global Markets React to New Economic Policies</h3>
+      </div>
+      <div class="trending-card">
+        <img src="https://images.pexels.com/photos/3153540/pexels-photo-3153540.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Trending story 3">
+        <h3 class="news-title">Breakthrough in Cancer Research Announced</h3>
+      </div>
+      <div class="trending-card">
+        <img src="https://images.pexels.com/photos/1036804/pexels-photo-1036804.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Trending story 4">
+        <h3 class="news-title">New Images from Mars Rover Excite Scientists</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-data-wrapper">
+    <h1>Market Data</h1>
+    <table class="market-table">
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Ticker</th>
+          <th>Price</th>
+          <th>Change</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tech Corp</td>
+          <td>TECH</td>
+          <td>$150.25</td>
+          <td class="positive-change">+1.20</td>
+        </tr>
+        <tr>
+          <td>EcoEnergy</td>
+          <td>EGY</td>
+          <td>$75.50</td>
+          <td class="negative-change">-0.85</td>
+        </tr>
+        <tr>
+          <td>Health Inc</td>
+          <td>HLT</td>
+          <td>$320.10</td>
+          <td class="positive-change">+5.30</td>
+        </tr>
+        <tr>
+          <td>BuildIt</td>
+          <td>BLD</td>
+          <td>$105.00</td>
+          <td class="negative-change">-2.10</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+    <p>© 2025 NEWSLETTER. All Rights Reserved.</p>
+  </footer>
+
+</body>
 </html>
