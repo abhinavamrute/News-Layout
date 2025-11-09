@@ -2,6 +2,7 @@ html {
   overflow-x: hidden;
 }
 
+
 body {
   background-color: #f3f2ea;
   margin: 0;
@@ -338,4 +339,15 @@ audio {
 
 .footer-links a:hover {
   text-decoration: underline;
+}
+
+.card-coln1:hover{
+  transform: scale(1.03);
+}
+
+.card-coln2:hover{
+  transform: scale(1.06);
+}
+.trending-card:hover{
+  transform: scale(1.05);
 }
